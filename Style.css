@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body 
+{
+   
+    box-sizing: border-box;
+    background-color:  #f9f9f9;
+    /* To hide images */
+    overflow-x: hidden;
+  
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-between;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: aqua; */
+    z-index: 100;
+}
+
+.logo
+{   
+    
+    padding: 10px 10px;
+    font-size: 50px;
+    background-color: #74deca;
+    border-radius: 80px;
+    /* border: 2px solid black; */
+    text-shadow: 2px 2px 4px rgb(21, 29, 6);
+    word-wrap: break-word;
+    margin-right: 60px;
+    margin-left: -60px;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.navigation a
+{
+    text-decoration: none;
+    text-shadow: 2px 2px 6px rgb(19, 17, 17);
+    background-color:#359381;
+    padding: 6px 15px;
+    margin: 0 10px;
+    color:white;
+    border-radius: 20px;
+    font-weight: 600;
+   
+}
+
+.navigation a:hover,.navigation a.active
+{
+    background-color:#74deca;
+    color: white;
+    font-size: large;
+
+}
+
+.paralex
+{
+  
+    display:flex;
+    position: relative;
+    justify-content: center;
+  
+    align-items: center;
+    height: 100vh;  
+   
+}
+div {
+    
+    height: 500px;
+    width: 300px;
+}
+
+#animal5
+{
+    float: left;
+    height: 300px;
+    width: 200px;
+    margin: 4px 4px 2px 2px;
+    border: 1px solid black;
+}
+
+#animal2
+{  
+  
+  
+    justify-content: flex-end;
+    height: 400px;
+    width: 400px;
+}
+
+#text
+{   
+    position:absolute;
+    font-size: 5em;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+    
+}
+
+.paralex img
+{
+    position: absolute;
+    width: 100%;
+}
+
+#content
+{   
+    word-wrap: break-word;
+    height: 400px;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 100px;
+}
+.card
+{   
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+}
+.sec
+{   
+   
+    padding: 100px;
+    background-color: #003329;
+    position: relative;
+
+}
+
+.sec h2{
+    font-size: 3em;
+    color: #ffffff;
+    
+}
+.sec p
+{
+   font-size: 1em;
+   font-weight: 100;
+   color: #ffffff;
+}
+
